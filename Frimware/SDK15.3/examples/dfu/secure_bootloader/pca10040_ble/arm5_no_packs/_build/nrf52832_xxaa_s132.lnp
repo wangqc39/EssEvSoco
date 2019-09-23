@@ -1,7 +1,7 @@
 --cpu=Cortex-M4.fp
 ".\_build\main.o"
-".\_build\essevsensepublickey.o"
 ".\_build\fwdecryption.o"
+".\_build\essevsocopublickey.o"
 ".\_build\boards.o"
 ".\_build\ble_srv_common.o"
 ".\_build\nrf_bootloader.o"

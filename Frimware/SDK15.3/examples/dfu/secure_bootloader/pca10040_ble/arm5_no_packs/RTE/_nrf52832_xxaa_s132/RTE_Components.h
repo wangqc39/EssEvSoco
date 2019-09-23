@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'secure_bootloader_ble_s132_pca10040' 
+ * Project: 'EssEvSocoBootloader_s132_pca10040' 
  * Target:  'nrf52832_xxaa_s132' 
  */
 

@@ -144,14 +144,14 @@ uint32_t ble_dfu_buttonless_backend_init(ble_dfu_buttonless_t * p_dfu)
 uint32_t ble_dfu_buttonless_async_svci_init(void)
 {
     uint32_t ret_val;
-#ifndef NO_BOOTLOADER_DEBUG
+//#ifndef NO_BOOTLOADER_DEBUG
 
-//    ret_val = nrf_dfu_svci_vector_table_set();
-//    VERIFY_SUCCESS(ret_val);
+    ret_val = nrf_dfu_svci_vector_table_set();
+    VERIFY_SUCCESS(ret_val);
 
-//    ret_val = nrf_dfu_set_adv_name_init();
-//    VERIFY_SUCCESS(ret_val);
-#endif
+    ret_val = nrf_dfu_set_adv_name_init();
+    VERIFY_SUCCESS(ret_val);
+//#endif
 
     ret_val = nrf_dfu_svci_vector_table_unset();
 

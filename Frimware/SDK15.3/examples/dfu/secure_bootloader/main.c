@@ -122,6 +122,7 @@ static void dfu_observer(nrf_dfu_evt_type_t evt_type)
     }
 }
 
+const uint32_t UICR_ADDR_0x208 __attribute__((at(0x10001208))) __attribute__((used)) = 0xFFFFFF00;
 
 /**@brief Function for application main entry. */
 int main(void)

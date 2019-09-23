@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'KeyWriterEssEvSense' 
+ * Project: 'KeyWriterEssEvSoco' 
  * Target:  'nrf52832_xxaa' 
  */
 

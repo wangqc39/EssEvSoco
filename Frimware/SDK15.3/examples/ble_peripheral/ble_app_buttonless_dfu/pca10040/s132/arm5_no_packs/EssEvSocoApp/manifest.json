@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "EssEvSenseApp.bin",
+            "dat_file": "EssEvSenseApp.dat"
+        }
+    }
+}

@@ -133,10 +133,10 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4099</DriverSelection>
+            <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
-          <Flash2>Segger\JL2CM3.dll</Flash2>
+          <Flash2>BIN\UL2CM3.DLL</Flash2>
           <Flash3>"nrfjprog.exe" (--program "#H" -f NRF52)</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
@@ -390,14 +390,14 @@
               <FilePath>..\config\sdk_config.h</FilePath>
             </File>
             <File>
-              <FileName>EssEvSensePublicKey.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\EssEvSensePublicKey.c</FilePath>
-            </File>
-            <File>
               <FileName>FwDecryption.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\FwDecryption.c</FilePath>
+            </File>
+            <File>
+              <FileName>EssEvSocoPublicKey.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\EssEvSocoPublicKey.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -4773,14 +4773,14 @@
               <FilePath>..\config\sdk_config.h</FilePath>
             </File>
             <File>
-              <FileName>EssEvSensePublicKey.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\EssEvSensePublicKey.c</FilePath>
-            </File>
-            <File>
               <FileName>FwDecryption.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\FwDecryption.c</FilePath>
+            </File>
+            <File>
+              <FileName>EssEvSocoPublicKey.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\EssEvSocoPublicKey.c</FilePath>
             </File>
           </Files>
         </Group>

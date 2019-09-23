@@ -37,8 +37,8 @@
 
 
 //#define MAIN_APP_START_ADDR			    0x00004000
-#define OnChipAudioMenuAddr				0x0006F000   
-#define SYSTEM_INFO_ADDR				0x00070000
+#define OnChipAudioMenuAddr				0x00072000   
+#define SYSTEM_INFO_ADDR				0x00073000
 #define SECURE_START_ADDR				0x0007F000
 
 
@@ -59,7 +59,7 @@
 
 #define PROTOCAL_VERSION_BLE4       (1 << 0)
 #define PROTOCAL_VERSION_BLE42      (1 << 1)
-#define PRODUCT_TYPE				0x0A03
+#define PRODUCT_TYPE				0x0A06
 #define PROTOCAL_VERSION			(PROTOCAL_VERSION_BLE4 | PROTOCAL_VERSION_BLE42)
 #define MODEL						"ESS EV MICORMAX"
 #define MANUFACTURE					"SenseHobby Inc."
