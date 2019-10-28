@@ -53,3 +53,7 @@ dkms.conf
 *.crf
 *.dep
 *.axf
+*.sisc
+*.xcl
+*.pbi
+*.bat

@@ -1,0 +1,2 @@
+---- MotoTone Matches (1 in 1 files) ----
+simple_peripheral.c (src\app\Application) line 371 : static uint8_t attDeviceName[GAP_DEVICE_NAME_LEN] = "RVLT_MotoTone";

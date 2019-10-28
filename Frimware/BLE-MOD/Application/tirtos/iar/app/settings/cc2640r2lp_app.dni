@@ -1,0 +1,83 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[XdsDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+xds110serialNo=GY005993
+xds110foundProbes=
+xdsResetStyle=0
+xdsResetStrategy=3
+[DebugChecksum]
+Checksum=1031622452
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[RDIDriver]
+RDI_LeaveTargetRunning=0x00000000
+[Breakpoints]
+Count=0
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[struct_types]
+Fmt0=GPTimerCC26XX_HWAttrs-baseAddr	4	0
+Fmt1=struct BleNotifyPoolInfo-Head	3	0
+Fmt2=struct BleNotifyPoolInfo-Tail	3	0
+Fmt3=struct SendCmdPoolInfo-Cnt	3	0
+[array_types]
+Fmt0=uint8[16]	4	0
+Fmt1=uint8[21]	4	0
+Fmt2=uint8_t[1000]	4	0
+Fmt3=uint8_t[10]	4	0
+Fmt4=uint8_t[22]	4	0
+Fmt5=uint8_t[256]	4	0
+Fmt6=uint8_t[6]	4	0
+Fmt7=unsigned int[200]	4	0
+[watch_formats]
+Fmt0={W}42:BatteryVoltage	3	0
+Fmt1={W}42:PacketCnt	3	0
+Fmt2={W}42:SendCmdPoolHead	3	0
+Fmt3={W}42:SendCmdPoolTail	3	0
+Fmt4={W}42:Temperatrue	3	0
+Fmt5={W}42:TimeTest	4	0
+Fmt6={W}42:macAddress	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\Application\SystemConfig.c}.12.1" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\Application\SystemConfig.c}.18.1" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\Application\SystemConfig.c}.18.5" 0 0 1 "" 0 "" 0
+Bp3=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\Application\SystemConfig.c}.30.1" 0 0 1 "" 0 "" 0
+Bp4=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\Application\Bec.c}.37.1" 0 0 1 "" 0 "" 0
+Count=5
+[Aliases]
+A0=_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\chipinfo.c" ""
+A1=_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\chipinfo.h" ""
+A2=_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\flash.c" ""
+A3=_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\vims.c" ""
+A4=_ "T:\OneDrive\SoundSimulator2\EssEvStandard\Firmware\Application\src\app\Application\Uart.c" ""
+Count=5
+SuppressDialog=1

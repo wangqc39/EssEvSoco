@@ -1,0 +1,8 @@
+oad_target_cc2640r2lp_app_oad_onchip_production.bin 文件包含BIM和OadTarget（Bootloader）
+EssEvMicorMaxBleMod_oad_vx.x.x.x.bin 文件为通过OAD升级的固件。
+EssEvMicorMaxBleMod_manufacture_vx.x.x.x.bin 为生产文件，可以直接烧些到芯片中，运行最终功能。
+
+
+V1.3.0.0 2019/10/28 15:37
+    1、移植自EssEvMicroMax项目。
+    2、修改广播名称为EssEvSoco。

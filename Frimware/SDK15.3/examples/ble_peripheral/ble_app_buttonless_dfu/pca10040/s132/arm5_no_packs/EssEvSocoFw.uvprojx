@@ -48,7 +48,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\_build\</OutputDirectory>
-          <OutputName>EssEvSenseApp</OutputName>
+          <OutputName>EssEvSocoApp</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -81,8 +81,8 @@
           <AfterMake>
             <RunUserProg1>1</RunUserProg1>
             <RunUserProg2>1</RunUserProg2>
-            <UserProg1Name>C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin --output=@L.bin !L</UserProg1Name>
-            <UserProg2Name>nrfutil pkg generate --hw-version 52 --sd-req 0xB7 --application-version 4 --application _build/EssEvSenseApp.hex --key-file EssEvSensePriv.pem EssEvSenseApp.zip</UserProg2Name>
+            <UserProg1Name>EssEvSenseFirmwarePublish.exe @L</UserProg1Name>
+            <UserProg2Name>nrfutil pkg generate --hw-version 52 --sd-req 0xB7 --application-version 4 --application EssEvSocoApp.bin/EssEvSocoApp_E.bin --key-file EssEvSocoPriv.pem EssEvSocoApp.zip</UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopA1X>0</nStopA1X>

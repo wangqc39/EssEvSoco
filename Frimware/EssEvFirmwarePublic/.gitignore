@@ -1,0 +1,10 @@
+*.suo
+*.user
+*.sdf
+Debug/
+ipch/
+FirmwarePublic/Debug/
+FirmwarePublic/*.cmb
+FirmwarePublic/*.enc
+FirmwarePublic/*.bin
+
