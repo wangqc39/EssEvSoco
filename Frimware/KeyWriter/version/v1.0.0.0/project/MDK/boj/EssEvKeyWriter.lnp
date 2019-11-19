@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\boj\main.o"
+".\boj\stm32f10x_it.o"
+".\boj\cortexm3_macro.o"
+".\boj\stm32f10x_vector.o"
+".\boj\stm32f10x_flash.o"
+".\boj\stm32f10x_gpio.o"
+".\boj\stm32f10x_lib.o"
+".\boj\stm32f10x_nvic.o"
+".\boj\stm32f10x_rtc.o"
+".\boj\stm32f10x_rcc.o"
+".\boj\stm32f10x_iwdg.o"
+--strict --scatter ".\boj\EssEvKeyWriter.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\EssEvKeyWriter.map" -o .\boj\EssEvKeyWriter.axf

@@ -41,16 +41,16 @@
 #define SYSTEM_INFO_ADDR				0x3F000
 #define SECURE_START_ADDR				0x3F800
 
-#define FIRMWARE_ONLY			1
+//#define FIRMWARE_ONLY			1
 //#define WHOLE_PROJECT			2
 //#define BOOTLOADER_UPDATER		3
-//#define ESS_ONE_WHOLE_PROJECT	4
+#define ESS_ONE_WHOLE_PROJECT	4
 
 
 #ifdef FIRMWARE_ONLY
 #define ENCRY_FLAG						1
 #define FILE_NUM						1
-#define FILE_NAME0				"EssEvAppSoco_v1.0.0.1.bin"
+#define FILE_NAME0				"EssEvAppSoco_v1.0.2.0.bin"
 #define START_ADDR0				MIXER_START_ADDR
 #define FILE_NAME1				"OnChipAudio0x08015000"
 #define START_ADDR1				ON_CHIP_AUDIO_START_ADDR
@@ -66,9 +66,9 @@
 #ifdef ESS_ONE_WHOLE_PROJECT
 #define ENCRY_FLAG						0
 #define FILE_NUM				4
-#define FILE_NAME0				"EssEvBootloaderMicorMax_V1.0.0.0.bin"
+#define FILE_NAME0				"EssEvBootloaderSoco_V1.0.0.0.bin"
 #define START_ADDR0				BOOTER_START_ADDR
-#define FILE_NAME1				"EssEvAppMicorMax_v1.0.13.0.bin"
+#define FILE_NAME1				"EssEvAppSoco_v1.0.2.0.bin"
 #define START_ADDR1				MIXER_START_ADDR
 #define FILE_NAME2				"OnChipAudio0x0803E000.bin"
 #define START_ADDR2				ON_CHIP_AUDIO_START_ADDR

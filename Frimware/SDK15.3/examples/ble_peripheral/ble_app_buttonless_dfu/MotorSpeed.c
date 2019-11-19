@@ -206,7 +206,7 @@ void EvMotorSpeedHandler()
            
         ThisEvSpeedLevel = EV_SPEED3;
     }
-    //ThisEvSpeedLevel = EV_SPEED_HOLD;
+    ThisEvSpeedLevel = EV_SPEED_HOLD;
 /*
     else if(EV_GEAR_SWITCH1 == Bit_SET && EV_GEAR_SWITCH2 == Bit_SET)
     {

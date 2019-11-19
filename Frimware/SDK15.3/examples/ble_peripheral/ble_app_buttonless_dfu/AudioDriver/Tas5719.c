@@ -141,7 +141,7 @@ void Tas5719Cmd(FunctionalState CmdState)
     }
 }
 
-#define VOLUME_DB_MAX           -2
+#define VOLUME_DB_MAX           24
 #define VOLUME_DB_INTERVAL    2
 void Tas5719SetVolume(uint8_t VolumeLevel)
 {

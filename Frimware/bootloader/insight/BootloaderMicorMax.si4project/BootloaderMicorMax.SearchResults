@@ -1,0 +1,9 @@
+---- SystemTick Matches (8 in 3 files) ----
+ActionTick.c (Application) line 4 : volatile u32 SystemTick = 0;
+ActionTick.c (Application) line 7 : static void SystemTickConfiguration()
+ActionTickHwInit in ActionTick.c (Application) :     SystemTickConfiguration();
+ActionTick.c (Application) line 28 : void SystemTickInterruptHandler()
+SystemTickInterruptHandler in ActionTick.c (Application) :     SystemTick++;
+GetSystemTime in ActionTick.c (Application) :     return SystemTick;
+ActionTick.h (Application) line 4 : void SystemTickInterruptHandler(void);
+SysTick_Handler in stm32f0xx_it.c (Application) :     SystemTickInterruptHandler();
